@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     background-color: #fff;
     color: #fff;
     font-family: font-family: 'Raleway', sans-serif;
@@ -19,7 +20,10 @@ html, body {
     margin: 0 auto 0 auto;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -28,8 +32,12 @@ html, body {
     visibility: hidden;
 }
 
+
 /* -------------------------------------------------- */
+
 /* REUSE COMPONENT */
+
+
 /* -------------------------------------------------- */
 
 header {
@@ -55,8 +63,13 @@ a {
     color: #fff;
 }
 
+
 /* -------------------------------------------------- */
+
+
 /* HEADER */
+
+
 /* -------------------------------------------------- */
 
 .header-photo {
@@ -70,6 +83,7 @@ a {
 }
 
 .main-nav {
+    display: inline-block;
     list-style: none;
     float: right;
 }
@@ -77,13 +91,28 @@ a {
 .main-nav li {
     display: inline-block;
     padding-right: 3%;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-.main-nav li a {
+.link-text:link,
+.link-text:visited {
+    color: #fff;
+    display: inline-block;
+    padding: 20px 0px 20px 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 60%;
+    transition: color 0.2s;
+}
+
+.link-text:hover,
+.link-text:active {
+    color: rgb(216, 216, 216);
+    transition: color 0.2s;
+}
+
+.main-nav li:nth-child(4) {
+    
 }
 
 .main-nav li:nth-child(9) a {
@@ -92,6 +121,140 @@ a {
 
 .main-nav li:last-child a {
     font-size: 90%;
+}
+
+.menu-dropdown-1 {
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    background-color: rgb(47, 47, 47);
+    margin-left: -20px;
+    transition: background-color 0.2s;
+    transition: visibility 0.5s;
+}
+
+.menu-dropdown-1.menu-dropdown-visible-1 {
+    visibility: visible;
+}
+
+.menu-dropdown-1:hover {
+    visibility:visible;
+    background-color: #000;
+    transition: background-color 0.2s;
+}
+
+.menu-dropdown-2 {
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    background-color: rgb(47, 47, 47);
+    margin-left: -20px;
+    transition: background-color 0.2s;
+    transition: visibility 0.5s;
+}
+
+.menu-dropdown-2.menu-dropdown-visible-2 {
+    visibility: visible;
+}
+
+.menu-dropdown-2:hover {
+    visibility:visible;
+    background-color: #000;
+    transition: background-color 0.2s;
+}
+
+.link-drop:link,
+.link-drop:visited {
+    color: #b2b2b2;
+    transition: color 0.2s;
+}
+
+.link-drop:hover,
+.link-drop:active {
+    color: rgba(56, 97, 175, 0.92);
+    transition: color 0.2s;
+}
+
+.menu-dropdown-1 a li {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.menu-dropdown-1 a:first-child li {
+    border-bottom: 1px solid rgba(85, 85, 85, 0.58);
+}
+
+.menu-dropdown-1 a:first-child li i {
+    vertical-align: text-bottom;
+}
+
+.menu-dropdown-1 a:last-child li i {
+    vertical-align: text-top;
+}
+.menu-dropdown-1 a li h5 {
+    text-transform: uppercase;
+    font-size: 60%;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.menu-dropdown-1 a li h6 {
+    font-size: 50%;
+    font-weight: 300
+}
+
+.menu-dropdown-1 a:first-child li h6 {
+    margin-bottom: 12px;
+}
+
+.menu-dropdown-2 a li {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.23);
+}
+
+.menu-dropdown-2 a:last-child li {
+    border-bottom: 0px;
+}
+
+.menu-dropdown-2 a:first-child li i {
+    vertical-align: text-bottom;
+}
+
+.menu-dropdown-2 a:last-child li i {
+    vertical-align: text-top;
+}
+.menu-dropdown-2 a li h5 {
+    text-transform: uppercase;
+    font-size: 60%;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.menu-dropdown-2 a li h6 {
+    font-size: 50%;
+    font-weight: 300
+}
+
+.menu-dropdown-2 a li h6 {
+    margin-bottom: 12px;
+}
+
+.menu-dropdown-2 a:last-child li h6 {
+    margin-bottom: 0px;
+}
+
+.medium-icon {
+    font-size: 120%;
+}
+
+.link-content {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .header-text-box {
