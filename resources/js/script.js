@@ -44,3 +44,13 @@ $('.menu-dropdown-2').hover(
         $menudropdown2.removeClass('menu-dropdown-visible-2');
     }
 );
+
+/* HOVER DESIGN PHOTO LIST */
+var $designphoto = $('.design-photo-list .design-photo');
+var $designphotodes = $('.design-photo-list .design-photo-des')
+$('.design-photo-list').hover (
+    function(){
+        $(this).find($designphoto).toggleClass('design-photo-hover');
+        $(this).find($designphotodes).toggleClass('design-photo-des-hover animated fadeInLeft');
+    }
+)
