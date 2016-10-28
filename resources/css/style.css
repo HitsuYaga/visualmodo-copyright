@@ -91,14 +91,21 @@ a {
 }
 
 .main-nav {
+<<<<<<< HEAD
     display: inline-block;
+=======
+>>>>>>> origin/master
     list-style: none;
     float: right;
 }
 
 .main-nav li {
     display: inline-block;
+<<<<<<< HEAD
     padding-right: 15px;
+=======
+    padding-right: 25px;
+>>>>>>> origin/master
     margin-top: 10px;
 }
 
@@ -170,6 +177,7 @@ a {
     padding-right: 30px;
 }
 
+<<<<<<< HEAD
 .menu-dropdown a li {
     border-bottom: 1px solid rgba(85, 85, 85, 0.58);
 }
@@ -182,6 +190,16 @@ a {
     vertical-align: text-bottom;
 }
 
+=======
+.menu-dropdown a:first-child li {
+    border-bottom: 1px solid rgba(85, 85, 85, 0.58);
+}
+
+.menu-dropdown a:first-child li i {
+    vertical-align: text-bottom;
+}
+
+>>>>>>> origin/master
 .menu-dropdown a:last-child li i {
     vertical-align: text-top;
 }
@@ -197,6 +215,7 @@ a {
     font-weight: 300
 }
 
+<<<<<<< HEAD
 .menu-dropdown a li h6 {
     margin-bottom: 12px;
 }
@@ -205,6 +224,12 @@ a {
     margin-bottom: 4px;
 }
 
+=======
+.menu-dropdown a:first-child li h6 {
+    margin-bottom: 12px;
+}
+
+>>>>>>> origin/master
 .medium-icon {
     font-size: 120%;
 }
