@@ -71,6 +71,13 @@ a {
     color: #fff;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* -------------------------------------------------- */
 
@@ -254,12 +261,13 @@ a {
     width: 100%;
     display: inline-block;
     font-size: 160%;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
 .icon-des {
     font-size: 60%;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* ---------------------------- */
@@ -323,20 +331,6 @@ a {
     background: linear-gradient(to bottom, #fafafa 0%, #f4f4f4 100%);
 }
 
-/* -------------------------------------------------- */
-
-
-/* CUSTOMER SERVICE */
-
-
-/* -------------------------------------------------- */
-.feature-box {
-    position: relative;
-    width: 100%;
-    height: 800px;
-    background-color: #181818;
-}
-
 .cs-intro {
     margin-top: 40%;
 }
@@ -352,4 +346,242 @@ a {
     font-size: 70%;
     font-weight: 300;
     line-height: 155%;
+}
+
+/* -------------------------------------------------- */
+
+
+/* FEATURE BOX */
+
+
+/* -------------------------------------------------- */
+
+.feature-box {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: #181818;
+}
+
+.feature-img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+.feature-title {
+    font-weight: 400;
+    font-size: 95%;
+}
+
+.feature-des {
+    font-size: 70%;
+    font-weight: 300;
+    color: #aaaaaa;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+/* -------------------------------------------------- */
+
+
+/* FEATURE BOX */
+
+
+/* -------------------------------------------------- */
+
+.download-box {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/wordpress-page-pricing.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.des-box {
+    width: 75%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.download-title {
+    display: inline-block;
+    font-size: 220%;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding: 0 20px 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+
+.btn-download {
+    background-color: #fff;
+    color: #000;
+    font-weight: 400;
+}
+
+/* -------------------------------------------------- */
+
+
+/* SUBSCRIBE BOX */
+
+
+/* -------------------------------------------------- */
+
+.subscribe-box {
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/visualmodo-wordpress-themes-footer-main.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-logo-icon {
+    text-align: center;
+    position: relative;
+}
+
+.sub-logo-icon a:link,
+.sub-logo-icon a:visited {
+    color: #959595;
+    transition: color 0.2s;
+}
+
+.sub-logo-icon a:hover,
+.sub-logo-icon a:active {
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.back-to-stop {
+    display: block;
+    font-size: 180%;
+    font-weight: 200
+}
+
+.sub-logo {
+    margin-top: 80px;
+}
+
+.sub-title {
+    color: #898989;
+    font-size: 70%;
+    font-weight: 200;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.sub-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sub-email-box {
+    margin-top: 100px;
+}
+
+.input {
+    background-color: transparent;
+}
+
+.input-text {
+    margin-left: 40px;
+    width: 45%;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 70%;
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid #555;
+    padding: 8px 0px 8px 5px;
+    text-emphasis: 2px;
+    transition: border 0.2s;
+}
+
+.input-text:hover,
+.input-text:active {
+    border: 2px solid #4080fa;
+    transition: border 0.2s;
+}
+
+.email-icon {
+    margin-left: -30px;
+    display: inline-block;
+    line-height: 145%;
+    vertical-align: text-top;
+}
+
+.nav-bottom {
+    font-size: 60%;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.nav-bottom li {
+    float:left;
+    padding-left: 20px;
+}
+
+.nav-bottom a {
+    color: #818181;
+}
+
+/* -------------------------------------------------- */
+
+
+/* END-PAGE */
+
+
+/* -------------------------------------------------- */
+
+.end-page {
+    width: 100%;
+    height: 160px;
+    background-color: #1a1a1a;
+}
+
+.end-box {
+    height: 100%;
+}
+
+.end-box h6 {
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 60%;
+}
+
+.social-list {
+    margin-top: 50px;
+}
+
+.social-list li {
+    float: right;
+    padding-left: 25px;
+    padding-right: 1px;
+}
+
+.social-list a:link,
+.social-list a:visited {
+    color: #555;
+    transition: color 0.2s;
+}
+
+.social-list a:hover,
+.social-list a:active {
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.social-list a li i {
+    font-size: 180%;
 }
