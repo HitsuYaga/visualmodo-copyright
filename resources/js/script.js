@@ -32,3 +32,8 @@ $('.design-photo-list').hover (
         $(this).find(designphotodes).toggleClass('design-photo-des-hover animated fadeInLeft');
     }
 );
+
+/* BACK TO TOP */
+$('.js--back-to-top').click(function () {
+       $('html, body').animate({scrollTop: $('.navigation').offset().top}, 1800); 
+    });
